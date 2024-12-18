@@ -1,0 +1,119 @@
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+h1, h3 {
+  color: #2c3e50;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* App Container */
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.App h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* Add User Button */
+.add-user-button {
+  margin: 20px 0;
+}
+
+.add-user-button button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.add-user-button button:hover {
+  background-color: #2980b9;
+}
+
+/* User List */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.user-card {
+  background: rgb(178, 222, 188);
+  border: 1px solid #c6b4fc;
+  border-radius: 8px;
+  margin: 10px auto;
+  padding: 15px;
+  max-width: 400px;
+  box-shadow: 0 4px 6px rgba(228, 74, 210, 0.1);
+  text-align: left;
+}
+
+.user-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  text-align: center;
+
+}
+
+.user-card p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Modal Styling (React-Bootstrap) */
+.modal-header {
+  background-color: #3498db;
+  color: white;
+}
+
+.modal-title {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.modal-body {
+  padding: 20px;
+}
+
+.modal-footer .btn-primary {
+  background-color: #3498db;
+  border-color: #3498db;
+}
+
+.modal-footer .btn-primary:hover {
+  background-color: #2980b9;
+  border-color: #2980b9;
+}
+
+.modal-footer .btn-secondary {
+  background-color: #ddd;
+  color: #555;
+}
+
+.modal-footer .btn-secondary:hover {
+  background-color: #bbb;
+}
+
+/* Loading State */
+p {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #0c0606;
+}
